@@ -9,6 +9,7 @@ span{
     font-style: italic;
     font-weight: 700;
 }
+
 #t1{
     font-family: "Arial";
     font-size: 20px;
@@ -53,4 +54,27 @@ span{
 }
 .t3{
     text-decoration: 2px dotted line-through green;
+}
+.text1{
+    text-shadow: 0 0 5px yellow;
+}
+@font-face{
+    font-family: "mine";
+    src:url(Minercraftory.ttf)
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.Mine{
+    font-family: "mine";
+}
+@font-face{
+    font-family: "pU";
+    src:url(Pure\ Milk.otf)
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.pu{
+    font-family: "pU";
 }
